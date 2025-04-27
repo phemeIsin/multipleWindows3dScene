@@ -13,7 +13,15 @@ Clone the repository and open `index.html` in your browser to start exploring th
 
 ```
 git clone https://github.com/bgstaal/multipleWindow3dScene
+cd multipleWindow3dScene
 ```
+After cloning install global server and start it
+```
+npm install -g http-server
+http-server
+```
+Now open the provided links
+
 ## Usage
 The main application logic is contained within `main.js` and `WindowManager.js`. The 3D scene is rendered in `index.html`, which serves as the entry point of the application.
 
@@ -37,5 +45,4 @@ This project is open-sourced under the MIT License.
 - The Three.js team for their comprehensive 3D library.
 - x.com/didntdrinkwater for this readme.
 
-## Contact
-For more information and updates, follow [@_nonfigurativ_](https://twitter.com/_nonfigurativ_) on Twitter.
+
