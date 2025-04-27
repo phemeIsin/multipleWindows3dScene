@@ -20,7 +20,7 @@ After cloning install global server and start it
 npm install -g http-server
 http-server
 ```
-Now open the provided links
+Now open any of the provided links
 
 ## Usage
 The main application logic is contained within `main.js` and `WindowManager.js`. The 3D scene is rendered in `index.html`, which serves as the entry point of the application.
